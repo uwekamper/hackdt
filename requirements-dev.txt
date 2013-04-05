@@ -1,4 +1,5 @@
 Django==1.5.1
+Fabric==1.6.0
 Markdown==2.3.1
 PyYAML==3.10
 South==0.7.6
@@ -7,5 +8,6 @@ djangorestframework==2.2.6
 evernote==1.23.2
 httplib2==0.8
 oauth2==1.5.211
+paramiko==1.10.1
+pycrypto==2.6
 wsgiref==0.1.2
-uwsgi==1.9.1
