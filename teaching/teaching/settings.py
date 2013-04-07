@@ -158,3 +158,4 @@ LOGGING = {
         },
     }
 }
+AUTH_PROFILE_MODULE = 'worksheets.model.UserProfile'

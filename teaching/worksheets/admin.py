@@ -6,7 +6,18 @@ class SubjectAdmin(admin.ModelAdmin):
 
 admin.site.register(Subject, SubjectAdmin)
 
-class StudentGroupAdmin(admin.ModelAdmin):
+class StudentAdmin(admin.ModelAdmin):
     pass
 
-admin.site.register(StudentGroup, StudentGroupAdmin)
+admin.site.register(Student, StudentAdmin)
+
+
+class OverlordAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(Overlord, OverlordAdmin)
+
+class UserProfileAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(UserProfile, UserProfileAdmin)
